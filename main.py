@@ -1,5 +1,7 @@
 from database import db, Pacientes, Consultas
 
+
+#faz conexao
 db.connect()
 db.create_tables([Pacientes, Consultas])
 
